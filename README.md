@@ -1,14 +1,5 @@
 # webcrawler-verifier
 
-[![Latest Stable Version](https://poser.pugx.org/itgalaxy/webcrawler-verifier/v/stable)](
-https://packagist.org/packages/itgalaxy/webcrawler-verifier)
-[![Travis Build Status](https://img.shields.io/travis/itgalaxy/webcrawler-verifier/master.svg?label=build)
-](https://travis-ci.org/itgalaxy/webcrawler-verifier)
-[![Coverage Status](https://coveralls.io/repos/github/itgalaxy/webcrawler-verifier/badge.svg?branch=master)](
-https://coveralls.io/github/itgalaxy/webcrawler-verifier?branch=master)
-[![Dependency Status](https://www.versioneye.com/user/projects/5810b9c19cfcf7003790163f/badge.svg?style=flat-square)](
-https://www.versioneye.com/user/projects/5810b9c19cfcf7003790163f)
-
 Webcralwer-Verifier is a PHP library to ensure that robots are from the operator they claim to be, 
 eg that Googlebot is actually coming from Google and not from some spoofer.
 
@@ -19,14 +10,14 @@ eg that Googlebot is actually coming from Google and not from some spoofer.
 If you're using [Composer](https://github.com/composer/composer) to manage dependencies, you can add Requests with it.
 
 ```sh
-composer require itgalaxy/webcrawler-verifier
+composer require harm-smits/webcrawler-verifier
 ```
 
 or
 ```json
 {
     "require": {
-        "itgalaxy/webcrawler-verifier": ">=1.0.0"
+        "harm-smits/webcrawler-verifier": ">=1.0.0"
     }
 }
 ```
